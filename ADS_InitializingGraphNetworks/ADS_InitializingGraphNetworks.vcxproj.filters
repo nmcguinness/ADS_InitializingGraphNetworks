@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{3e0ae1be-3b3e-4b90-afbd-cb0e770ca7e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Example 1">
+      <UniqueIdentifier>{949329f5-72fb-47a0-9e95-8e07a4162ae0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Utility">
+      <UniqueIdentifier>{b1f4e09c-8bf6-48f8-8668-79bb2ad2358c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Node">
+      <UniqueIdentifier>{b9db759f-2c12-4650-bc64-25c66eded9b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Example 2">
+      <UniqueIdentifier>{65e062e9-fed6-489b-8266-ba607adae527}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StringTrimNode.h">
+      <Filter>Header Files\Example 1</Filter>
+    </ClInclude>
+    <ClInclude Include="StringToLowerNode.h">
+      <Filter>Header Files\Example 1</Filter>
+    </ClInclude>
+    <ClInclude Include="StringUtility.h">
+      <Filter>Header Files\Core\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputNode.h">
+      <Filter>Header Files\Core\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Header Files\Core\Node</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
