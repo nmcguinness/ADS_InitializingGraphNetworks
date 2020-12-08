@@ -21,7 +21,7 @@ void demoProcessingString() {
 	StringToLowerNode* pToLowerNode = new StringToLowerNode();
 	OutputNode<string>* pOutputNode = new OutputNode<string>();
 
-	//connect nodes together
+	//connect nodes
 	pTrimNode->setNext(pToLowerNode)->setNext(pOutputNode);
 
 	////handle the data by passing to the first node and get result
