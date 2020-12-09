@@ -1,5 +1,4 @@
 #pragma once
-
 #include "StringUtility.h"
 #include "Node.h"
 

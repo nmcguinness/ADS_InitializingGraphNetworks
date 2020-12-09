@@ -1,6 +1,4 @@
 #pragma once
-
-#include "StringUtility.h"
 #include "Node.h"
 
 template <class T>
@@ -14,7 +12,7 @@ public:
 		this->output = data;
 	}
 
-	T& getOutput() {
+	T getOutput() {
 		return this->output;
 	}
 };

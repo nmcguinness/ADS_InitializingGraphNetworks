@@ -142,6 +142,9 @@
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Bike.h" />
+    <ClInclude Include="BikeRemoveIfNode.h" />
+    <ClInclude Include="BikeTransformByNode.h" />
     <ClInclude Include="Node.h" />
     <ClInclude Include="OutputNode.h" />
     <ClInclude Include="StringToLowerNode.h" />

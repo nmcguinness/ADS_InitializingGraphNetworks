@@ -1,6 +1,7 @@
 #pragma once
 #include "StringUtility.h"
 #include "Node.h"
+using namespace std;
 
 class StringTrimNode : public Node<string> {
 public:
