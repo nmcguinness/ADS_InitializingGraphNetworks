@@ -9,7 +9,7 @@ enum class NodeType {
 	Output
 };
 
-/// @brief Abstract parent class for a 1-to-1 and 1-to-Many node
+/// @brief Abstract parent class for a 1-to-1 Node object
 /// @tparam T C++ or User-defined type (e.g. int, string, vector<float>, list<Student*>)
 template <class T>
 class Node {
