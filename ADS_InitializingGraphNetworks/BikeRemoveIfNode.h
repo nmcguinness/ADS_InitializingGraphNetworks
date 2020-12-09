@@ -6,6 +6,7 @@
 
 using namespace std;
 
+/// @brief Removes those Bike objects from the list that satisfy the filter
 class BikeRemoveIfNode : public Node<list<Bike>> {
 private:
 	std::function<bool(Bike&)> filter;

@@ -1,5 +1,5 @@
 #pragma once
-#include <iostream>  //used by the << operator on line 13
+#include <iostream>
 using namespace std;
 
 struct Bike {

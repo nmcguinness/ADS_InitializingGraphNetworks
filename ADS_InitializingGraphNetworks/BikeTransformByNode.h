@@ -7,6 +7,7 @@
 
 using namespace std;
 
+/// @brief Tranforms (modifies) the Bike objects in the list
 class BikeTransformByNode : public Node<list<Bike>> {
 private:
 	std::function<void(Bike&)> transform;
@@ -18,7 +19,8 @@ public:
 	}
 
 	void process(list<Bike>& list) {
-		//notice that we use Bike& in the for loop, otherwise we would just transform the copy and not
+		//notice that we use Bike& in the for loop below
+		//otherwise we would just transform the copy and not change it INSIDE the list
 		for (Bike& bike : list)
 			transform(bike);
 
